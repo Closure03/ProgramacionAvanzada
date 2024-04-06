@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>    
+</head>
+<body>
+    <!-- <h1 class="titulo">Mi Pagina</h1>
+    <p id="Parrafo">!Hola World!</p>
+    <script src="index.js"></script>
+-->
+    <h2> metodo: addEventListener</h2>
+    <button id="botonPrincipal">CLICK</button>
+    <script>
+
+        let button = document.getElementById("botonPrincipal");
+        button.addEventListener("click",RespuestaClick);
+        function RespuestaClick(){
+            alert("Mensaje de Prueba!");
+        }
+    </script>
+</body>
+</html>
