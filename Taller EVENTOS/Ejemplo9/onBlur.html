@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onBlur</title>
+    <script src="./onBlur.JS"></script>
+    <link rel="stylesheet" href="./onBlur.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ejemplo de Evento onBlur</h2>
+        <form>
+            <label for="inputText">Escribe algo aquí:</label><br>
+            <!-- Input para ingresar texto -->
+            <input type="text" id="inputText" name="inputText" onblur="updateText()">
+        </form>
+        <!-- Párrafo para mostrar el valor ingresado -->
+        <p id="displayText">El valor ingresado aparecerá aquí...</p>
+    </div>
+</body>
+</html>

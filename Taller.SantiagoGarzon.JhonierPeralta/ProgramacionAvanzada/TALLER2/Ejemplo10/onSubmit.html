@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onSubmit</title>
+    <link rel="stylesheet" href="onSubmit.css">
+    <script src="onSubmit.js"></script>
+</head>
+<body>
+    <form onsubmit="return submitForm()">
+        <h2>Ejemplo de Evento onSubmit</h2>
+        <label for="inputName">Nombre:</label><br>
+        <input type="text" id="inputName" name="inputName" required><br>
+        <label for="inputEmail">Email:</label><br>
+        <input type="email" id="inputEmail" name="inputEmail" required><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
